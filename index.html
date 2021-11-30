@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://kit.fontawesome.com/2ca48ba5ba.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+    <link rel="shortcut icon" href="assets/Logo_bkg.png" type="image/x-icon" >  
+    <link rel="stylesheet" href="style/design.css">
+    <title>No Kode App</title>
+</head>
+<body>
+     <!-- Navbar (sit on top) -->
+    <div class="w3-top" >
+        <div class="w3-bar w3-row nav-container" id="myNavbar" >
+        <a href="#" class="w3-bar-item w3-col l4 m4 s6 w3-wide"><img src="assets/Logo_bkg.png" alt="not_supported" class="logo"></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-hide-small w3-col l8 m8 s6" style="padding: 0.7vw 0.8vw 0.5vw 0.8vw;">
+            <a href="#" class="w3-bar-item bar_items" style="border-bottom: 3px solid #ed4e9d;border-width: 30%;">Home</a>
+            <a href="#How_it's_work" class="w3-bar-item bar_items">How it's work</a>
+            <a href="Pricing.html" class="w3-bar-item bar_items">Pricing</a>
+            <a href="contact.html" class="w3-bar-item bar_items">Contact Us</a>
+            <a href="contact.html" class="w3-bar-item bar_items"> <button class="bar_items2" >Early Access</button></a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium mobile_bars" style="color: black;" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="#How_it's_work" onclick="w3_close()" class="w3-bar-item w3-button">How it's work</a>
+    <a href="Pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">Pricing</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Early Access</a>
+  </nav>
+  <!--Header img-->
+    <header class="w3-display-container header">
+        <div class="context">
+            <h1 class="hh1">Build the perfect app for your business</h1>
+            <h5 class="hh2">Instantly create customer portals, partner apps & internal tools<br> on top of your existing data.</h5>
+            <a href="contact.html" style="text-decoration: none;"><button class="btn1">Don't miss Chance</button></a>
+        </div>
+        <div class="area" >
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="w3-container">
+            <div class="context2">
+                <img src="assets/header_img.svg" alt="not_supported" class="header_img1">
+            </div>
+            <div class="w3-container context3">
+                <img src="assets/heder_bkg2.svg" alt="not_supported" class="header_img2">
+            </div>
+        </div>
+        
+    </header>
+  <!--perfect app-->
+  <div class=" w3-row-padding context4">
+      <h1 class="hh3 display">Create the perfect app for your customers, team or partners</h1>
+      <div class="w3-col l6 m6 s12">
+          <div class="display" style="width: 75%;margin-top: 5rem;">
+            <div style="display: inline;border-bottom: 2px solid grey; padding: 10px 0px;align-items: center;">
+                <button class="app_btn"  onclick="document.getElementById('myImage').src='assets/btn1.png'">Client Protocol</button>
+                <button class="app_btn" onclick="document.getElementById('myImage').src='assets/btn2.png'">Internal Tools</button>
+                <button class="app_btn" onclick="document.getElementById('myImage').src='assets/btn3.png'">Partner Portals</button>
+            </div>
+            <div>
+                <img id="myImage" src="assets/btn1.png" class="btn_images">
+            </div>
+          </div>
+      </div>
+      <div class="w3-col l6 m6 s12" style="padding: 50px 40px;">
+        <div class="display" style="width: 75%;">
+            <h2 class="hh4">Build a client portal that’s tailor-made for your business.</h2>
+            <p class="hh5">Delight your clients with a streamlined client experience. </p>
+            <p class="hh5">Agencies, financial services and consulting firms use No Kode App to centralize client communication, file-sharing, task management, reporting and billing.</p>
+            <p class="hh5">No more back and forth emails asking for updates. Minimize interactions and keep your whole team on the same page.</p>
+        </div>
+    </div>
+  </div>
+  <!--Smart-->
+  <div class="w3-container padding_element" id="How_it's_work">
+      <h1 class="w3-center hh6">Spreadsheets don’t scale.</h1>
+      <h5 class="hh7">Delight your team, partners or customers with a beautiful app built around your existing Google Sheets or Airtable data.</h5>
+      <div class="w3-row" >
+            <div class="w3-col l3 m3 s12 padding_for_cards">
+                <div class="glowing_number display">
+                    <h2 style="font-weight: 800;color: #d74299;">1</h2>
+                </div>
+                <h5 class="w3-center hh8">Connect</h5>
+                <p class="w3-center hh9">Connect your data from data sources like Airtable, Google Sheets or Postgres DB (coming soon).</p>
+            </div>
+            <div class="w3-col l3 m3 s12 padding_for_cards" >
+                <div class="glowing_number display">
+                    <h2 style="font-weight: 800;color: #d74299;">2</h2>
+                </div>
+                <h5 class="w3-center hh8">Sit back</h5>
+                <p class="w3-center hh9">We’ll do the heavylifting for you. Watch as we automagically build a UI around your data.</p>
+            </div>
+            <div class="w3-col l3 m3 s12 padding_for_cards" >
+                <div class="glowing_number display">
+                    <h2 style="font-weight: 800;color: #d74299;">3</h2>
+                </div>
+                <h5 class="w3-center hh8">Customize</h5>
+                <p class="w3-center hh9">Add your logo, choose a color scheme to match your brand style & connect a custom domain</p>
+            </div>
+            <div class="w3-col l3 m3 s12 padding_for_cards" >
+                <div class="glowing_number display">
+                    <h2 style="font-weight: 800;color: #d74299;">4</h2>
+                </div>
+                <h5 class="w3-center hh8">Invite</h5>
+                <p class="w3-center hh9">When you’re ready, invite your team, partners or customers to your secure portal</p>
+            </div>
+        </div>
+  </div>
+
+  <!--permissions-->
+  <div class="w3-container w3-row-padding" style="padding: 90px 20px;">
+    <div class="w3-half" style="padding: 10px 90px;">
+        <p style="color: #d74299;">PERMISSIONS</p>
+        <h1 class="hh10">Take back control of your data</h1>
+        <p class="hh11">Share your data with teammates, customers or partners without worrying about who else can get access.</p>
+        <p class="hh11">Allow users to log in and only see the data that belongs to them or their company.</p>
+        <p class="hh11">Set permissions and grant access based on user roles. Define which users can read, create and update data.</p>
+    </div>
+    <div class="w3-half">
+        <img src="assets/permission.png" alt="not_supported" class="permission_img display">
+    </div>
+  </div>
+  <!--Modules-->
+  <div class="w3-container w3-row-padding" style="padding: 90px 20px;">
+    <div class="w3-half" style="padding-top: 100px;">
+        <img src="assets/modules.png" alt="not_supported" class="module_img">
+    </div>
+    <div class="w3-half" style="padding: 10px 90px;" id="module">
+        <p style="color: #d74299;">MODULES</p>
+        <h1 class="hh10">Supercharge your <span style="color:#d74299;">app</span> with modules</h1>
+        <p>Add rich features like messaging, file-sharing & billing in one click. We’ve done the heavy lifting so you don’t have to.</p>
+        <h6><img src="assets/user.png" alt="not_supported" class="module_logo_img"><b>Create subscriptions</b><br><span>Automate your invoicing. Connect your Stripe or Quickbooks account and take the pain out of collecting money from your customers.</span></h6>
+        <h6><img src="assets/centralize.png" alt="not_supported" class="module_logo_img"><b>Centralize communication</b><br><span>Keep your team on the same page by messaging users through your app. No more juggling different email threads. Always be in the loop.</span></h6>
+        <h6><img src="assets/data.png" alt="not_supported" class="module_logo_img"><b>Your digital locker for files</b><br><span>Connect your Google Drive or use our built-in file storage to share files with your customers or partners. No need for managing different sharing links.</span></h6>
+    </div>
+  </div>
+  <!--Automate-->
+  <div class="w3-container w3-row-padding" style="padding:50px 10px;background: #faeff7;">
+    <div class="w3-half" style="padding: 10px 90px;">
+        <p style="color: #d74299;">AUTOMATE</p>
+        <h1 class="hh10">Take the pain out of the everyday</h1>
+        <p class="hh11">Share the burden of manual updates with your users. Give them access to update their own data and provide you with the information you need.</p>
+        <p class="hh11">Tired of giving status updates and keeping everyone on the same page? Allow your users to log in and check for updates without having to get in touch. No back and forth emails required.</p>
+        <p class="hh11">Create custom workflows to integrate with your favourite tools like Stripe, Quickbooks and Google Drive or access 3,000 other apps through our Zapier integration.</p>
+    </div>
+    <div class="w3-half">
+        <img src="assets/automate.png" alt="not_supported" class="automate_img_display">
+    </div>
+  </div>
+  <!--Subscribe-->
+    <div class="w3-container subscribe">
+        <img src="assets/No Code APP (1).png" alt="not_supported" class="subs_logo display">
+        <h1 class="w3-center" style="color:white;">Ready to build your app without code?</h1>
+        <div class="form-center">
+            <form action="#">
+                <div style="display: inline;">
+                    <input type="text" placeholder="you@yourdomain.com">
+                    <input type="submit" placeholder="Subscribe">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="w3-container w3-row-padding footer_bkg" style="padding: 30px 10px;">
+        <div class="w3-col l6 m6 s12">
+            <img src="assets/No Code APP.png" alt="not_supported" width="50%">
+        </div>
+        <div class="w3-col l3 m3 s12">
+            <h5 style="font-weight: 800;">Company</h5>
+            <ul>
+                <li> <a href="index.html" style="text-decoration: none;">Home</a></li>
+                <li><a href="Pricing.html" style="text-decoration: none;">Pricing</a></li>
+                <li><a href="Contact.html" style="text-decoration: none;">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="w3-col l3 m3 s12">
+            <h5 style="font-weight: 800;">Other links</h5>
+            <ul>
+                <li>Blogs</li>
+                <li><a href="Legal.html" style="text-decoration: none;">Legal Notice</a></li>
+                <li>Privacy Policy</li>
+            </ul>
+            <span id="social">
+                <a href="#"><i class="fab fa-facebook-f" ></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.linkedin.com/company/no-kode-app"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </span>        
+        </div>
+
+    </footer>
+    <script src="file.js" type="text/javascript"></script>
+</body>
+</html>

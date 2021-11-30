@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://kit.fontawesome.com/2ca48ba5ba.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+    <link rel="shortcut icon" href="assets/Logo_bkg.png" type="image/x-icon" >  
+    <link rel="stylesheet" href="style/design.css">
+    <title>Contact Us</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Roboto',sans-serif;
+        }
+
+        body {
+        background: linear-gradient(to right,#f8f8f8,#fdeef5,#f3c6fa);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+        height: 100vh;
+        margin: -20px 0 50px;
+        }
+
+        .container {
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        position: relative;
+        overflow: hidden;
+        width: 768px;
+        max-width: 100%;
+        min-height: 500px;
+        min-width: 410px;
+        }
+
+        h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        }
+
+        .form-container {
+        display: flex;
+        }
+
+        .left-container {
+        flex: 1;
+        height: 500px;
+        background-color:#ec4899;
+        }
+
+        .right-container {
+        display: flex;
+        flex: 1;
+        height: 500px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .left-container {
+        display: flex;
+        flex: 1;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        }
+        .left-container p {
+        font-size: 0.9rem;
+        }
+
+        .right-inner-container {
+        width: 70%;
+        height: 80%;
+        text-align: center;
+        }
+
+        .left-inner-container {
+        height: 50%;
+        width: 80%;
+        text-align: center;
+        line-height: 22px;
+        }
+
+        input,
+        textarea {
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 100%;
+        font-size: 0.8rem;
+        border-radius: 12px;
+        }
+
+        input:focus,
+        textarea:focus {
+        outline: 1px solid #00b4cf;
+        }
+
+        button {
+        border-radius: 20px;
+        border: 1px solid #ed4e9d;
+        background: linear-gradient(to left,#f8a0cf,#ed4e9d);
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        }
+
+        button:hover {
+        opacity: 0.7;
+        }
+
+        @media only screen and (max-width: 600px) {
+        .left-container {
+            display: none;
+        }
+
+        .lg-view {
+            display: none;
+        }
+        }
+        @media only screen and (min-width: 600px) {
+        .sm-view {
+            display: none;
+        }
+        }
+        form p {
+        text-align: left;
+        }
+        .as1 {
+            background-color: black;
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-left: 10px;
+        }
+        span a:hover{
+            background-color: white;
+            color:#ec4899
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+          <div class="left-container">
+            <div class="left-inner-container">
+                <h2>Get in touch</h2>
+                <p>Feel free to send me a message in the contact form</p><br>
+                <span>
+                    <a href="#" class="social as1 " style="padding: 8px 12px;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social as1 " style="padding: 8px 8px;"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.linkedin.com/company/no-kode-app" class="social as1 " style="padding: 8px 10px;"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+            </div>
+          </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+              <form action="#">
+                    <h2 class="lg-view">Contact</h2>
+                    <h2 class="sm-view">Let's Chat</h2>
+                    <input type="text" placeholder="Name *"  />
+                    <input type="email" placeholder="Email *" />
+                    <input type="phone" placeholder="Phone" />
+                    <textarea rows="4" placeholder="Message"></textarea>
+                    <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+<script src="file.js" type="text/javascript"></script>
+</body>
+</html>
