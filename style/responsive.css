@@ -1,0 +1,126 @@
+@media (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }    
+    .logo{
+        width: 50%;
+    }
+    .area{
+        height:77vh;
+    }
+    .hh1{
+        width: 100%;
+        font-size: 30px;
+        left:0;
+    }
+    .context{
+        left:0;
+        top:30%;
+    }
+    .hh2{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .btn1{
+        margin-left: 30%;
+    }
+    .context2{
+        top:86%;
+        left: 22%;
+    }
+    .header_img1{
+        width: 60%;
+    }
+    .context3{
+        top:130%;
+        left: 0;
+    }
+    .header_img2{
+        width: 99%;
+    }
+    .context4{
+        margin-top: 90%;
+    }
+    .hh3{
+        width: 100%;
+        font-size: 25px;
+    }
+    .perfect_btns_div{
+        width: 100%;
+    }
+    .app_btn{
+        padding: 6px 10px;
+    }
+    .btn_images{
+        height:auto;
+    }
+    .secon__div{
+        width: 100%;
+    }
+    .hh4{
+        width: 100%;
+        font-size: 25px;
+    }
+    .hh6{
+        font-size: 30px;
+    }
+    .permission_half{
+        padding: 10px 90px;
+    }
+    .module_padding{
+        width: 100%;
+    }
+    .subs_logo{
+        width: 30%;
+    }
+    .mm1{
+        font-size: 30px;
+        width: 100%;
+        line-height: 1;
+    }
+    .form-center input[type="text"]{
+        width: 10rem;
+    }
+}/*
+@media only screen and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+
+    }
+    .bar_items{
+        margin-left: 0%;
+    }
+    .area{
+        height: 50vh;
+    }
+    .context{
+        top:20%;
+    }
+    .context2{
+        top:65%;
+    }
+    .context3{
+        top:115%;
+    }
+    .btn_images{
+        height: auto;
+    }
+}
+/*@media only screen and (min-width: 600px) {
+    .logo{
+        width: 100%;
+    }
+    .area{
+        height: 70vh;
+    }
+    .context{
+        top:20%;
+    }
+    .context2{
+        top:75%;
+        left: 40%;
+    }
+    .context3{
+        top:112%;
+    }
+}

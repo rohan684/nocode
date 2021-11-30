@@ -1,14 +1,14 @@
 $(document).ready(function () {
-    $(window).scroll(function () {
-      var scrollTop = $(window).scrollTop();
-  
-      if (scrollTop >= 150 ) {
-        $(".nav-container").addClass("solid-nav");
-      } else {
-        $(".nav-container").removeClass("solid-nav");
-      }
-    });
+  $(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop >= 150 ) {
+      $(".nav-container").addClass("solid-nav");
+    } else {
+      $(".nav-container").removeClass("solid-nav");
+    }
   });
+});
   function myFunction() {
     var x = document.getElementById("demo");
     if (x.className.indexOf("w3-show") == -1) {

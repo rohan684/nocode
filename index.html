@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <script src="https://kit.fontawesome.com/2ca48ba5ba.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
-    <link rel="shortcut icon" href="assets/Logo_bkg.png" type="image/x-icon" >  
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" >  
     <link rel="stylesheet" href="style/design.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>No Kode App</title>
 </head>
 <body>
      <!-- Navbar (sit on top) -->
     <div class="w3-top" >
         <div class="w3-bar w3-row nav-container" id="myNavbar" >
-        <a href="#" class="w3-bar-item w3-col l4 m4 s6 w3-wide"><img src="assets/Logo_bkg.png" alt="not_supported" class="logo"></a>
-        <!-- Right-sided navbar links -->
-        <div class="w3-hide-small w3-col l8 m8 s6" style="padding: 0.7vw 0.8vw 0.5vw 0.8vw;">
-            <a href="#" class="w3-bar-item bar_items" style="border-bottom: 3px solid #ed4e9d;border-width: 30%;">Home</a>
-            <a href="#How_it's_work" class="w3-bar-item bar_items">How it's work</a>
-            <a href="Pricing.html" class="w3-bar-item bar_items">Pricing</a>
-            <a href="contact.html" class="w3-bar-item bar_items">Contact Us</a>
-            <a href="contact.html" class="w3-bar-item bar_items"> <button class="bar_items2" >Early Access</button></a>
-        </div>
-        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium mobile_bars" style="color: black;" onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-        </a>
+            <a href="#" class="w3-bar-item w3-col l4 m2 s6 w3-wide"><img src="assets/Logo_bkg.png" alt="not_supported" class="logo"></a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-hide-small w3-col l8 m10 s6" style="padding: 10px;">
+                <a href="#" class="w3-bar-item bar_items" style="border-bottom: 3px solid #ed4e9d;border-width: 30%;">Home</a>
+                <a href="#How_it's_work" class="w3-bar-item bar_items">How it's work</a>
+                <a href="Pricing.html" class="w3-bar-item bar_items">Pricing</a>
+                <a href="contact.html" class="w3-bar-item bar_items">Contact Us</a>
+                <a href="contact.html" class="w3-bar-item bar_items"> <button class="bar_items2" >Early Access</button></a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium mobile_bars" style="color: black;" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
   
@@ -76,7 +77,7 @@
   <div class=" w3-row-padding context4">
       <h1 class="hh3 display">Create the perfect app for your customers, team or partners</h1>
       <div class="w3-col l6 m6 s12">
-          <div class="display" style="width: 75%;margin-top: 5rem;">
+          <div class="display perfect_btns_div">
             <div style="display: inline;border-bottom: 2px solid grey; padding: 10px 0px;align-items: center;">
                 <button class="app_btn"  onclick="document.getElementById('myImage').src='assets/btn1.png'">Client Protocol</button>
                 <button class="app_btn" onclick="document.getElementById('myImage').src='assets/btn2.png'">Internal Tools</button>
@@ -88,7 +89,7 @@
           </div>
       </div>
       <div class="w3-col l6 m6 s12" style="padding: 50px 40px;">
-        <div class="display" style="width: 75%;">
+        <div class="display secon__div">
             <h2 class="hh4">Build a client portal that’s tailor-made for your business.</h2>
             <p class="hh5">Delight your clients with a streamlined client experience. </p>
             <p class="hh5">Agencies, financial services and consulting firms use No Kode App to centralize client communication, file-sharing, task management, reporting and billing.</p>
@@ -134,7 +135,7 @@
 
   <!--permissions-->
   <div class="w3-container w3-row-padding" style="padding: 90px 20px;">
-    <div class="w3-half" style="padding: 10px 90px;">
+    <div class="w3-half permission_half" >
         <p style="color: #d74299;">PERMISSIONS</p>
         <h1 class="hh10">Take back control of your data</h1>
         <p class="hh11">Share your data with teammates, customers or partners without worrying about who else can get access.</p>
@@ -146,11 +147,11 @@
     </div>
   </div>
   <!--Modules-->
-  <div class="w3-container w3-row-padding" style="padding: 90px 20px;">
+  <div class="w3-container w3-row-padding" style="padding: 10px 20px 90px 20px;">
     <div class="w3-half" style="padding-top: 100px;">
         <img src="assets/modules.png" alt="not_supported" class="module_img">
     </div>
-    <div class="w3-half" style="padding: 10px 90px;" id="module">
+    <div class="w3-half module_padding" style="padding: 10px 10px;" id="module">
         <p style="color: #d74299;">MODULES</p>
         <h1 class="hh10">Supercharge your <span style="color:#d74299;">app</span> with modules</h1>
         <p>Add rich features like messaging, file-sharing & billing in one click. We’ve done the heavy lifting so you don’t have to.</p>
@@ -175,7 +176,7 @@
   <!--Subscribe-->
     <div class="w3-container subscribe">
         <img src="assets/No Code APP (1).png" alt="not_supported" class="subs_logo display">
-        <h1 class="w3-center" style="color:white;">Ready to build your app without code?</h1>
+        <h1 class="w3-center mm1" style="color:white;">Ready to build your app without code?</h1>
         <div class="form-center">
             <form action="#">
                 <div style="display: inline;">

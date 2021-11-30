@@ -4,16 +4,17 @@ body, html {height: 100%;line-height: 1.8;scroll-behavior: smooth;}
 .nav-container {
     height: 63px;
     width: 100%;
+    background-color: white;
     position: fixed;
     font-weight: 600;
-    color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
     letter-spacing: 0.025em;
     transition: background-color 0.2s linear;
 }
 .nav-container.solid-nav {
     background-color: white;
     color:black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: background-color 0.2s linear;
 }
 .logo{
@@ -53,7 +54,7 @@ body, html {height: 100%;line-height: 1.8;scroll-behavior: smooth;}
     left: 36vw;
 }
 .header_img1{
-    width: 30vw;
+    width: 32%;
 }
 .context3{
     width: 100%;
@@ -82,8 +83,7 @@ body, html {height: 100%;line-height: 1.8;scroll-behavior: smooth;}
 }
 .hh2{
     width: 60%;
-    text-align: center;
-    
+    text-align: center;  
 }
 .btn1{
     border-radius: 50px;
@@ -416,8 +416,13 @@ body, html {height: 100%;line-height: 1.8;scroll-behavior: smooth;}
     font-weight: 800;
 }
 
-@media (max-width:480px){
-    body{
-        overflow-x: hidden;
-    }
+.perfect_btns_div{
+    width: 75%;
+    margin-top: 5rem;
+}
+.secon__div{
+    width: 75%;
+}
+.permission_half{
+    padding: 10px 90px;
 }
